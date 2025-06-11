@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links 🔗🌍📂
 
-* Live Site URL: [Live Demo](https://charleslindecker.github.io/blog-preview-card)
+* Live Site URL: [Live Demo](https://fm-blog-preview-card-theta.vercel.app)
 
 ## My process 🧠🔧🎯
 
@@ -90,6 +90,7 @@ I want to explore:
 ## Author 👤🖊️📇
 
 * LinkedIn - [Charles LINDECKER](https://www.linkedin.com/in/charles-lindecker/)
+* GitHub - [Charles LINDECKER](https://github.com/LINDECKER-Charles)
 * Frontend Mentor - [@LINDECKER-Charles](https://www.frontendmentor.io/profile/LINDECKER-Charles)
 
 ## Acknowledgments 🙌👏💬
