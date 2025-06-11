@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+        extend: {
+            colors: {
+            yellow: "hsl(47, 88%, 63%)",
+            white: "hsl(0, 0%, 100%)",
+            gray: {
+                500: "hsl(0, 0%, 42%)",
+                950: "hsl(0, 0%, 7%)"
+            }
+            },
+            fontFamily: {
+                figtree: ['Figtree', 'sans-serif']
+            }
+        }
+        }
+    }
+    </script>
+
+    <style>
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+        .attribution { font-size: 11px; text-align: center; display: none;}
+        .attribution a { color: hsl(228, 45%, 44%); }
+        @font-face {
+            font-family: 'Figtree';
+            src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+            font-weight: 100 900;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Figtree';
+            src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+            font-weight: 100 900;
+            font-style: italic;
+        }
+        
+  </style>
+</head>
+<body class=" bg-yellow flex items-center justify-center min-h-screen font-figtree">
+    
+    <main class=" bg-white mx-auto border-black border-[1px] rounded-xl p-4 flex flex-col  justify-center text-left w-[380px] shadow-[8px_8px_0_0_black]">
+        <div >
+            <img src="assets/images/illustration-article.svg" alt="Small art about HTML and CSS." class=" rounded-xl mb-6">
+        </div>
+
+        <p class=" bg-yellow text-black text-sm font-extrabold px-3 py-1 rounded-sm w-max mb-3">Learning</p>
+
+        <p class=" text-sm text-gray-950 mb-3">Published 21 Dec 2023</p>
+
+        <h1 class="text-2xl font-extrabold hover:text-gray-950 mb-3 text-yellow cursor-pointer transition">HTML & CSS foundations</h1>
+
+        <p class=" text-gray-500 text-sm leading-relaxed mb-6">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+        <div class=" flex flex-row gap-3"><img src="assets/images/image-avatar.webp" alt="Greg Hooper Head" class="w-8 h-auto"><p class=" font-extrabold text-sm text-gray-950 h-8 leading-8">Greg Hooper</p></div>
+    </main>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.linkedin.com/in/charles-lindecker/">LINDECKER Charles</a>.
+    </div>
+</body>
+</html>
